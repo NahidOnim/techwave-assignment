@@ -9,6 +9,7 @@
     justify-content: space-between;
     align-items: center;
     color: #FFFFFF;
+    margin-bottom: px;
 }
 .nav-menu li{
     list-style: none;
@@ -16,4 +17,10 @@
 .bi{
     max-width: 1600px;
     margin: auto;
+}
+.banner{
+    background-image: url("/assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
