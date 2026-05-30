@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="font-inter">
-    <nav class="navbar py-4 pb-7 px-5 md:px-32 flex justify-between bg">
+    <nav class="navbar py-4 md:pb-7 px-5 md:px-32 flex justify-between bg">
         <img class="" src="assets/TechWave.png" alt="Logo">
         <ul class="nav-menu hidden md:flex md:gap-8 ">
             <li>About</li>
@@ -23,10 +23,10 @@
         <button class="nav-button hidden md:block px-4 py-3 font-semibold  rounded-4xl bg-linear-to-r/longer from-indigo-500 to-teal-400">Subscribe <i class="fa-solid fa-arrow-right" style="color: rgb(255, 255, 255);"></i></button>
     </nav>
 
-    <section class="banner bg mx-auto text-white pt-56 pb-28">
-        <img src="assets/hero-circle.png" class="circle size-70 m-auto">
+    <section class="banner bg mx-auto text-white md:pt-56 pt-40 md:pb-28 pb-10 ">
+        <img src="assets/hero-circle.png" class="circle md:size-70 size-50 m-auto">
         <img src="assets/microphone.png" class="mic">
-        <h3 class="text-center font-extrabold text-5xl mb-2">TechWave</h3>
+        <h3 class="text-center font-extrabold md:text-6xl text-4xl mb-2">TechWave</h3>
         <p class="text-center mb-6 text-base text-white/60">Your daily dose of tech insights, productivity hacks, and personal growth</p>
         <div class="flex gap-7 justify-center">
             <button class="rounded-4xl px-3 py-2 text-base bg-gradient-to-r from-yellow-500 via-pink-500 to-purple-800"><i class="fa-brands fa-spotify" style="color: rgb(255, 255, 255);"></i>  Listen On Spotify</button>
@@ -34,9 +34,9 @@
         </div>
     </section>
 
-    <section class=" bg text-white pb-32 ">
+    <section class=" bg text-white md:pb-32 pb-13 ">
         <div class="banner2">
-            <h2 class="text-center text-5xl font-bold">
+            <h2 class="text-center md:text-5xl text-3xl font-bold pt-10">
                 About The Podcast
             </h2>
             <p class="text-center pt-4 text-base/relaxed lg:px-52 px-8 text-white/60">
@@ -46,9 +46,9 @@
                 <br>Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
             </p>
         </div>
-        <img src="assets/Line 4.png" class="py-20 mx-auto">
-        <div class="flex justify-center gap-20">
-            <div class="px-8 text-center">
+        <img src="assets/Line 4.png" class="md:py-20 py-10 mx-auto">
+        <div class="md:flex md:justify-center md:gap-20 grid grid-cols-2 gap-8">
+            <div class="px-8 text-center ">
                 <h3 class="text-green-500 text-5xl font-black pb-4">150K+</h3>
                 <p class="text-base text-white/60 leading-5">MONTHLY LISTENERS</p>
             </div>
@@ -67,11 +67,11 @@
         </div>
     </section>
 
-    <section class="why bg2  text-white px-52 py-32">
+    <section class="why bg2  text-white md:px-52 md:py-32 py-10">
         
-        <h3 class="font-bold text-5xl text-center pb-10">Why Choose TechWave</h3>
-        <div class="container1 pb-8">
-            <div class="first px-10 py-28 bg-[#351165]/40 rounded-3xl">
+        <h3 class="font-bold md:text-5xl text-3xl text-center pb-10">Why Choose TechWave</h3>
+        <div class="container1 px-6 pb-8 md:flex md:flex-col ">
+            <div class="first md:px-10 md:py-28 p-10 bg-[#351165]/40 rounded-3xl">
                 <img src="assets/headphone.png">
                 <h4 class="py-4 text-2xl font-bold">Premium Audio Quality</h4>
                 <p class="text-white/60">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
@@ -87,7 +87,7 @@
                 <p class="text-white/60">Connect with tech enthusiasts from over 120 countries worldwide.</p>
             </div>
         </div>
-        <div class="container2">
+        <div class="container2 px-6">
             <div class="fourth p-10 bg-[#351165]/40 rounded-3xl">
                 <img src="assets/community.png">
                 <h4 class="py-4 text-2xl font-bold">Exclusive Interviews</h4>
@@ -100,5 +100,51 @@
             </div>
         </div>
     </section>
+    <section class="featured bg md:px-50 md:py-30 px-5 py-10 text-white">
+        <h4 class="md:text-5xl text-3xl font-bold text-center pb-10">Featured Episodes</h4>
+        <div class="card-container flex md:flex-row flex-col gap-8">
+            <div class="card  bg-[#351165]/40 rounded-3xl">
+                <iframe class="w-full rounded-t-3xl" width="380" height="214" src="https://www.youtube.com/embed/EV7WhVT270Q?si=qnpIpV8wYx4uKYVC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold pb-3">The Future of AI in Everyday Life</h3>
+                    <p class="text-white/60 pb-3">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+                    <p class="text-[#00ff88]"><i class="fa-solid fa-clock" style="color: #00ff88;"></i> 42 min</p>
+                </div>
+            </div>
+            <div class="card  bg-[#351165]/40 rounded-3xl">
+                <iframe class="w-full rounded-t-3xl" width="380" height="214" src="https://www.youtube.com/embed/bdsc3Spm6Sw?si=Pueygh-q0Tk6JmrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold pb-3">Building Better Habits for Remote Work</h3>
+                    <p class="text-white/60 pb-3">Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
+                    <p class="text-[#00ff88]"><i class="fa-solid fa-clock" style="color: #00ff88;"></i> 35 min</p>
+                </div>
+            </div>
+            <div class="card  bg-[#351165]/40 rounded-3xl">
+                <iframe class="w-full rounded-t-3xl" width="380" height="214" src="https://www.youtube.com/embed/nUiefdzbqQ8?si=G7Oh_7uOZ-i3J2Hf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold pb-3">Career Growth in Tech: A Roadmap</h3>
+                    <p class="text-white/60 pb-3">Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
+                    <p class="text-[#00ff88]"><i class="fa-solid fa-clock" style="color: #00ff88;"></i> 51 min</p>
+                </div>
+            </div>
+        </div>
+        <h3 class="md:text-5xl text-3xl font-bold text-center md:pt-30 pt-10 pb-10">Meet The Host</h3>
+        <div class="md:p-10 px-5 flex md:flex-row flex-col gap-6 bg-[#351165]/40 rounded-3xl text-center md:text-left">
+            <img src="assets/host.png" class="px-20 md:px-0 py-6 md:py-0">
+            <div>
+                <h3 class="md:text-[32px] text-2xl font-bold">Alex Kumar</h3>
+                <p class="text-white/60 py-4">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+                <div class="flex gap-2 justify-center md:justify-self-start">
+                    <img class="pb-5" src="assets/Frame 2087326343.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="md:p-[120px] flex flex-col">
+        <img class="m-auto pt-10" src="assets/TechWave.png" alt="">
+        <img class="px-102 py-8 hidden md:block" src="assets/Frame footer.png">
+        <img src="assets/footer mobile.png" class="block md:hidden py-4 px-24">
+        <img src="assets/Frame footer copyright.png" class="pb-4">
+    </footer>
 </body>
 </html>
