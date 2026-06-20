@@ -22,7 +22,7 @@
     margin: auto;
 }
 .banner{
-    background-image: url("/assets/hero-bg.png");
+    background-image: url("../assets/hero-bg.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@
     grid-column: span 2;
 }
 footer{
-    background-image: url("/assets/footer-bg.png");
+    background-image: url("../assets/footer-bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
