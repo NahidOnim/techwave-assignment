@@ -2,10 +2,10 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
-.bg{
+.cl{
     background-color: #1A0B2E;
 }
-.bg2{
+.cl2{
     background-color: #230E3D;
 }
 .navbar{
@@ -23,18 +23,20 @@
 }
 .banner{
     background-image: url("../assets/hero-bg.png");
-    background-size: contain;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
 }
 .circle{
     position: relative;
-    bottom: 100px;
+    bottom: 90px;
 }
 .mic{
     position: absolute;
-    left: 715px;
-    bottom: 240px;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
 }
 .container1{
     display: grid;
@@ -67,6 +69,8 @@ footer{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 @media screen and (max-width:576px) {
     .container1{
@@ -101,17 +105,22 @@ footer{
 
     .banner{
         background-image: url("/assets/hero-bg.png");
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
 }
     .circle{
         position: relative;
-        bottom: -125px;
+        bottom: -90px;
 }
     .mic{
         position: absolute;
-        left: 185px;
-        bottom: 600px;
+        left: 50%;
+        top: 35%;
+        transform: translate(-50%, -50%);
+}
+footer{
+    background-size: cover;
+    background-position: center;
 }
 }
